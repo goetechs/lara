@@ -1,26 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello city | a propos</title>
-</head>
-<body>
+@extends('base')
+
+@section('title', 'Hello city | a propos ')
 
 
 
-<section>
-    
+@section('content')
 
     <p>Creer avec &hearts; par Jean claude SASSOU</p>
 
     <a href="/">Revenir a la page d'accueil</a>
     <h1> Dans a propos</h1>
-</section>
 
-<footer>
-    <p>&copy; Copyright in 2023  </p>
-</footer>
-       
-</body>
-</html>
+@endsection
