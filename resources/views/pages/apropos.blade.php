@@ -19,7 +19,7 @@
 </section>
 
 <footer>
-    <p>&copy; Copyright in 2023  </p>
+    <p>&copy; Copyright en 2023  </p>
 </footer>
     
 </body>
