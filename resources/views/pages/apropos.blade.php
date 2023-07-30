@@ -8,7 +8,7 @@
 
     <p>Creer avec &hearts; par Jean claude SASSOU</p>
 
-    <a href="/">Revenir a la page d'accueil</a>
+    <a href=" {{ route('home') }}">Revenir a la page d'accueil</a>
     <h1> Dans a propos</h1>
 
 @endsection

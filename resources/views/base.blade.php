@@ -14,7 +14,7 @@
     {{ config('profil.slogan') }}
 
 <footer>
-    <p>&copy; Copyright in 2023  </p>
+    <p>&copy; Copyright {{ date('y') }} &middot; <a href=" {{ route('apropos') }}">A propos</a> </p>
 </footer>
        
 </body>
