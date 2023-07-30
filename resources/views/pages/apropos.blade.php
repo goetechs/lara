@@ -6,15 +6,17 @@
 
 @section('content')
 
-    <img style=" width: 10%" src="  {{ asset('/images/pic3.jpg') }}  " alt="photo 3">
+    <img style="height:200px width: 200px" class="my-12 rounded-full shadow-md h-32"  src="  {{ asset('/images/pic3.jpg') }}  " alt="photo 3">
 
-    <p>Creer avec &hearts; par Jean claude SASSOU</p>
+    <p class="mb-5 text-gray-700">
+        Creer avec <span class="text-pink-500">&hearts;</span> par Jean claude SASSOU</p>
 
     
 
-    <a href=" {{ route('home') }}">Revenir a la page d'accueil</a>
+    <a class="text-indigo-500 hover:text-indigo-600 underline" href=" {{ route('home') }}">
+        Revenir a la page d'accueil
+    </a>
     
     
-    <h1> Dans a propos</h1>
 
 @endsection
