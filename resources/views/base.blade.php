@@ -14,7 +14,10 @@
     {{ config('profil.slogan') }}
 
 <footer>
+    @if(!Route::is('apropos'))
     <p>&copy; Copyright {{ date('y') }} &middot; <a href=" {{ route('apropos') }}">A propos</a> </p>
+    @endif
+
 </footer>
        
 </body>
