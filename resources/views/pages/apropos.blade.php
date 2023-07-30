@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <img style=" width: 10%" src="/images/pic3.jpg" alt="photo 3">
+    <img style=" width: 10%" src="  {{ asset('/images/pic3.jpg') }}  " alt="photo 3">
 
     <p>Creer avec &hearts; par Jean claude SASSOU</p>
 

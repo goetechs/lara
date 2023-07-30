@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <img style=" width: 10%" src="images/pic5.jpg" alt="photo 5">
+    <img style=" width: 10%" src="{{ asset('/images/pic5.jpg') }} " alt="photo 5">
 
 
     <h1> Je suis content</h1>
